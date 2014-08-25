@@ -44,6 +44,7 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
 
+gem 'nested_form'
 
 group :test, :development do
   gem 'debugger'
