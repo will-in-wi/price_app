@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :recipe_items
-
   resources :recipes
 
   resources :items
