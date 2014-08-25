@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Unit category:</strong>
+  <%= @item.unit_category %>
+</p>
+
+<p>
+  <strong>Price per unit:</strong>
+  <%= @item.price_per_unit %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @item.store %>
+</p>
+
+<p>
+  <strong>Price last updated:</strong>
+  <%= @item.price_last_updated %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @item.notes %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
