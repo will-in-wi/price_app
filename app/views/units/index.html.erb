@@ -4,6 +4,7 @@
   <thead>
     <tr>
       <th>Unit category</th>
+      <th>Name</th>
       <th>Amount</th>
       <th>Default</th>
       <th colspan="3"></th>
@@ -14,6 +15,7 @@
     <% @units.each do |unit| %>
       <tr>
         <td><%= unit.unit_category %></td>
+        <td><%= unit.name %></td>
         <td><%= unit.amount %></td>
         <td><%= unit.default %></td>
         <td><%= link_to 'Show', unit %></td>

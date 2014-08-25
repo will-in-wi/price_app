@@ -16,6 +16,10 @@
     <%= f.select :unit_category_id, UnitCategory.all.map { |uc| [uc.name, uc.id] }, { prompt: true }, { class: 'form-control' } %>
   </div>
   <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
     <%= f.label :amount %>
     <%= f.text_field :amount, class: 'form-control' %>
   </div>
