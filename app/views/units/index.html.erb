@@ -14,7 +14,7 @@
   <tbody>
     <% @units.each do |unit| %>
       <tr>
-        <td><%= unit.unit_category %></td>
+        <td><%= link_to unit.unit_category.name, unit.unit_category %></td>
         <td><%= unit.name %></td>
         <td><%= unit.amount %></td>
         <td><%= unit.default %></td>
